@@ -2,8 +2,8 @@
 
 ## Abstract
 While there are more than 313 million Arabic speakers in the world, and more than 1.9 billion Muslims, there is a lack of true guidance in regards of the Sharia of Islam and most importantly in the provisions of pillars of Islam such as the prayer, fasting, etc.<br>
-<br>
 Nowadays, the internet is filled with misleading fatwas and the Muslim who really searching for the true information which is based on the Quran or on the Hadith of Prophet Mohamed is in a problem, he/she has to search about who gave the fatwa and to check the validity of the Hadith that the Sheikh relied on in his fatwa.<br>
+<br>
 In ‘مرجعنا’, we will make a GPT2 bot that can give a reliable and valid fatwa. We will use transformers (GPT2) for the bot to give fatwa because we need it to give
 “human-like” responses. The model will be mainly and initially trained on islamweb.net fatwas, it is a famous and valid source where any fatwa is given by a knowledgeable and reliable Sheikh with the Quran and trusted Hadith. The bot is going to be initially in Arabic language only.
 
