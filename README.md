@@ -1,5 +1,5 @@
 # Religious-Text-Analysis-and-ChatBot-Using-Transformer-Based-Models
-![Image](C:\Users\joead\OneDrive\Desktop\078f0074fd7a58db4ea4a0e94efa3c5d.png)
+![Image](C:/Users/joead/OneDrive/Desktop/078f0074fd7a58db4ea4a0e94efa3c5d.png)
 ## Abstract
 While there are more than 313 million Arabic speakers in the world, and more than 1.9 billion Muslims, there is a lack of true guidance in regards of the Sharia of Islam and most importantly in the provisions of pillars of Islam such as the prayer, fasting, etc.<br>
 Nowadays, the internet is filled with misleading fatwas and the Muslim who really searching for the true information which is based on the Quran or on the Hadith of Prophet Mohamed is in a problem, he/she has to search about who gave the fatwa and to check the validity of the Hadith that the Sheikh relied on in his fatwa.<br>
