@@ -54,7 +54,6 @@ Deploy the model using 'gradio' library. As shown in the figure below, the user 
 [![Screenshot-80.png](https://i.postimg.cc/bvQfpzfM/Screenshot-80.png)](https://postimg.cc/8FP0bg5B)<br>
 <br>
 <br>
-<br>
 ## Citations
 The model fine-tuned in this project: https://huggingface.co/aubmindlab/aragpt2-base<br>
 <br>
