@@ -17,7 +17,7 @@ Our Methodology Consist of 3 Main Sections:<br>
 1- Clean the data from NULL values, irrelevant text, and text that contains a reference that cannot be accessed.<br>
 2- Concatenate the question/title with the answer in one single column.<br>
 <br>
-After all the data cleaning we end up with 40,859 data-points (pair of question and answer), for computational cost reasons, we only select the first 20,000 data-point, 90% for training and 10% for validation.<br>
+After all the data cleaning we end up with 40,859 data points (pair of question and answer), for computational cost reasons, we only select the first 20,000 data-point, 90% for training and 10% for validation.<br>
 <br>
 **Section 2: Model Fine-Tuning and Testing**<br>
 <br>
