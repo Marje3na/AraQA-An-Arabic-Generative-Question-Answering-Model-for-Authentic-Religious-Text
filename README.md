@@ -29,10 +29,11 @@ Our approach to topic modeling relies on the identification of primary Islamic s
 We have developed a validation process to validate generated Hadith and Ayat, utilizing the e5 base pre-trained word-embedding model. The process comprises the following key steps:<br>
 <img src="https://github.com/Marje3na/Religious-Text-Analysis-and-ChatBot-Using-Transformer-Based-Models/assets/78882792/85f4aecd-8e9f-4a78-820a-c1d68abce9dd" width="600" alt="validation_graph">
 <br>
-1. ***Embedding Data:*** We embed both the authentic Ayat and Hadith dataset, as well as the generated Ayat and Hadith.
-2. ***Cosine Similarity Calculation:*** We calculate the cosine similarity between these embeddings, providing a quantitative measure of their structural similarity.
-3. ***Threshold for Replacement:*** We have set a predefined threshold for cosine similarity at 90 percent. If the cosine similarity exceeds this threshold, the generated Ayat and Hadith are replaced by the most similar content from the authentic dataset.
-4. ***Exclusion of Dissimilar Data:*** If the threshold is not met, indicating dissimilarity, the data is excluded from further consideration.<br>
+1. ***Extraction:*** We extract Ayat and Hadith from Generated Answer.
+2. ***Embedding Data:*** We embed both the authentic Ayat and Hadith dataset, as well as the generated Ayat and Hadith.
+3. ***Cosine Similarity Calculation:*** We calculate the cosine similarity between these embeddings, providing a quantitative measure of their structural similarity.
+4. ***Threshold for Replacement:*** We have set a predefined threshold for cosine similarity at 90 percent. If the cosine similarity exceeds this threshold, the generated Ayat and Hadith are replaced by the most similar content from the authentic dataset.
+5. ***Exclusion of Dissimilar Data:*** If the threshold is not met, indicating dissimilarity, the data is excluded from further consideration.<br>
 **This validation process ensures the validaty of generated Ayat and Hadith.**
 
 **Section 2: Model Fine-Tuning and Testing**<br>
