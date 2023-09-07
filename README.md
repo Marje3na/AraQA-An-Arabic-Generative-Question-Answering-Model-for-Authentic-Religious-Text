@@ -26,7 +26,9 @@ Our approach to topic modeling relies on the identification of primary Islamic s
 
 **Section 3:Ayat and hadith Validation**<br>
 
-We have developed a validation process to validate generated Hadith and Ayat, utilizing the e5 base pre-trained word-embedding model. The process comprises the following key steps:
+We have developed a validation process to validate generated Hadith and Ayat, utilizing the e5 base pre-trained word-embedding model. The process comprises the following key steps:<br>
+<img src="https://github.com/Marje3na/Religious-Text-Analysis-and-ChatBot-Using-Transformer-Based-Models/assets/78882792/85f4aecd-8e9f-4a78-820a-c1d68abce9dd" width="600" alt="validation_graph">
+<br>
 1. ***Embedding Data:*** We embed both the authentic Ayat and Hadith dataset, as well as the generated Ayat and Hadith.
 2. ***Cosine Similarity Calculation:*** We calculate the cosine similarity between these embeddings, providing a quantitative measure of their structural similarity.
 3. ***Threshold for Replacement:*** We have set a predefined threshold for cosine similarity at 90 percent. If the cosine similarity exceeds this threshold, the generated Ayat and Hadith are replaced by the most similar content from the authentic dataset.
