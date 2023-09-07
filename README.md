@@ -10,22 +10,22 @@ In ‘مرجعنا’, we will make a GPT2 bot that can give a reliable and vali
 In this project, we used islamweb.net data that we scraped as we mentioned in the Abstract section.<br>
 The Scraped Data: https://www.kaggle.com/datasets/abdallahelsaadany/fatawa <br>
 <br>
-Our Methodology Consist of 3 Main Sections:<br>
+Our Methodology Consist of 5 Main Sections:<br>
 <br>
-**Section 1: Data Cleaning & Prepocessing and Feature Engineering**<br>
+**Section 2: Data Cleaning & Prepocessing and Feature Engineering**<br>
 <br>
 1- Clean the data from NULL values, irrelevant text, and text that contains a reference that cannot be accessed.<br>
 2- Concatenate the question/title with the answer in one single column.<br>
 <br>
 After all the data cleaning we end up with 40,859 data-points (pair of question and answer), for computational cost reasons, we only select the first 20,000 data-point, 90% for training and 10% for validation.<be>
 
-**Section 2: Topic Modeling**<br>
+**Section 3: Topic Modeling**<br>
 <br>
 Our approach to topic modeling relies on the identification of primary Islamic subjects. For every topic classification, we gathered a collection of keywords linked to that specific subject. The selection of these keywords was informed by our expertise in the field and the most commonly occurring keywords (prominent terms that signify particular subjects).
 <be>
 
 
-**Section 3: Model Fine-Tuning and Testing**<br>
+**Section 4: Model Fine-Tuning and Testing**<br>
 <br>
 ARAGPT2-Base used in this project inherited the GPT2's architecture with 12 heads and 12 layers, as illustrated in the figure below.<br>
 
@@ -38,7 +38,7 @@ ARAGPT2-Base used in this project inherited the GPT2's architecture with 12 head
 <br>
 <be>
 
-**Section 4: Ayat and hadith Validation**<br>
+**Section 5: Ayat and hadith Validation**<br>
 
 We have developed a validation process to validate generated Hadith and Ayat, utilizing the e5 base pre-trained word-embedding model. The process comprises the following key steps:<br>
 <img src="https://github.com/Marje3na/Religious-Text-Analysis-and-ChatBot-Using-Transformer-Based-Models/assets/78882792/85f4aecd-8e9f-4a78-820a-c1d68abce9dd" width="600" alt="validation_graph">
