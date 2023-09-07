@@ -24,6 +24,15 @@ After all the data cleaning we end up with 40,859 data-points (pair of question 
 Our approach to topic modeling relies on the identification of primary Islamic subjects. For every topic classification, we gathered a collection of keywords linked to that specific subject. The selection of these keywords was informed by our expertise in the field and the most commonly occurring keywords (prominent terms that signify particular subjects).
 <be>
 
+**Section 3:Ayat and hadith Validation**<br>
+
+We have developed a validation process to validate generated Hadith and Ayat, utilizing the e5 base pre-trained word-embedding model. The process comprises the following key steps:
+1. ***Embedding Data:*** We embed both the authentic Ayat and Hadith dataset, as well as the generated Ayat and Hadith.
+2. ***Cosine Similarity Calculation:*** We calculate the cosine similarity between these embeddings, providing a quantitative measure of their structural similarity.
+3. ***Threshold for Replacement:*** We have set a predefined threshold for cosine similarity at 90 percent. If the cosine similarity exceeds this threshold, the generated Ayat and Hadith are replaced by the most similar content from the authentic dataset.
+4. ***Exclusion of Dissimilar Data:*** If the threshold is not met, indicating dissimilarity, the data is excluded from further consideration.<br>
+**This validation process ensures the validaty of generated Ayat and Hadith.**
+
 **Section 2: Model Fine-Tuning and Testing**<br>
 <br>
 ARAGPT2-Base used in this project inherited the GPT2's architecture with 12 heads and 12 layers, as illustrated in the figure below.<br>
