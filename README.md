@@ -24,7 +24,21 @@ After all the data cleaning we end up with 40,859 data-points (pair of question 
 Our approach to topic modeling relies on the identification of primary Islamic subjects. For every topic classification, we gathered a collection of keywords linked to that specific subject. The selection of these keywords was informed by our expertise in the field and the most commonly occurring keywords (prominent terms that signify particular subjects).
 <be>
 
-**Section 3:Ayat and hadith Validation**<br>
+
+**Section 3: Model Fine-Tuning and Testing**<br>
+<br>
+ARAGPT2-Base used in this project inherited the GPT2's architecture with 12 heads and 12 layers, as illustrated in the figure below.<br>
+
+[![1-Ji79b-Z3-Kqp-MAj-Z9-Txv4q8-Q.png](https://i.postimg.cc/fWtB187t/1-Ji79b-Z3-Kqp-MAj-Z9-Txv4q8-Q.png)](https://postimg.cc/Z0m8dFM4)
+<br>
+<br>
+<br>
+1- Special token added for the pre-trained tokenizer (<question:>, <answer:>) to let the model understand which part is the question and which part is the answer.<br>
+2- Fine-tune the pre-trained model ARAGPT-Base (by aubmindlab).
+<br>
+<be>
+
+**Section 4: Ayat and hadith Validation**<br>
 
 We have developed a validation process to validate generated Hadith and Ayat, utilizing the e5 base pre-trained word-embedding model. The process comprises the following key steps:<br>
 <img src="https://github.com/Marje3na/Religious-Text-Analysis-and-ChatBot-Using-Transformer-Based-Models/assets/78882792/85f4aecd-8e9f-4a78-820a-c1d68abce9dd" width="600" alt="validation_graph">
@@ -36,20 +50,7 @@ We have developed a validation process to validate generated Hadith and Ayat, ut
 5. ***Exclusion of Dissimilar Data:*** If the threshold is not met, indicating dissimilarity, the data is excluded from further consideration.<br>
 **This validation process ensures the validaty of generated Ayat and Hadith.**
 
-**Section 2: Model Fine-Tuning and Testing**<br>
-<br>
-ARAGPT2-Base used in this project inherited the GPT2's architecture with 12 heads and 12 layers, as illustrated in the figure below.<br>
 
-[![1-Ji79b-Z3-Kqp-MAj-Z9-Txv4q8-Q.png](https://i.postimg.cc/fWtB187t/1-Ji79b-Z3-Kqp-MAj-Z9-Txv4q8-Q.png)](https://postimg.cc/Z0m8dFM4)
-<br>
-<br>
-<br>
-1- Special token added for the pre-trained tokenizer (<question:>, <answer:>) to let the model understand which part is the question and which part is the answer.<br>
-2- Fine-tune the pre-trained model ARAGPT-Base (by aubmindlab).
-<br>
-<br>
-**Section 3: Results & Testing and Deployment**<br>
-<br>
 
 ### *Results & Testing*
 Training Loss before adding the special tokens: **4.9**<br>
