@@ -74,4 +74,4 @@ Deploy the model using 'gradio' library. As shown in the figure below, the user 
 ## Citations
 The model fine-tuned in this project: https://huggingface.co/aubmindlab/aragpt2-base<br>
 <br>
-***Disclaimer***: THE MODELS GENERATED ANSWERS ARE NOT RELIABLE AT ALL YET, AND THE MODEL IS NOT YET AVAILABLE FOR PUBLIC USE, USE FOR RESEARCH PURPOSES ONLY.
+***Disclaimer***: THE MODELS GENERATED ANSWERS ARE NOT RELIABLE AT ALL YET, AND THE MODEL IS NOT YET AVAILABLE FOR GENERAL USE, USE FOR RESEARCH PURPOSES ONLY.
