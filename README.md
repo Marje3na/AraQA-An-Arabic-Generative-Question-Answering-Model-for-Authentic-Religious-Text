@@ -1,10 +1,8 @@
-# Religious-Text-Analysis-and-ChatBot-Using-Transformer-Based-Models
+# AraQA: An Arabic Generative Question-Answering Model for Authentic Religious Text
 <!--[![078f0074fd7a58db4ea4a0e94efa3c5d.png](https://i.postimg.cc/1tysbx6S/078f0074fd7a58db4ea4a0e94efa3c5d.png)](https://postimg.cc/GBgWs5qg)-->
 ## Abstract
-Nowadays, the internet is filled with misleading fatwas and the Muslim who really searching for the true information which is based on the Quran or on the Hadith of Prophet Mohamed is in a problem, he/she has to search about who gave the fatwa and to check the validity of the Hadith that the Sheikh relied on in his fatwa.<br>
-<br>
-In ‘مرجعنا’, we will make a GPT2 bot that can give a reliable and valid fatwa. We will use transformers (GPT2) for the bot to give fatwa because we need it to give
-“human-like” responses. The model will be mainly and initially trained on islamweb.net fatwas, it is a famous and valid source where any fatwa is given by a knowledgeable and reliable Sheikh with the Quran and trusted Hadith. The bot is going to be initially in Arabic language only.
+Recently, the internet has become a vast repository of religious texts and sources. The quest for valid and dependable Islamic Q/A that provides accurate substantiation from the Holy Quran (Muslim holy book) and Hadith (Prophet Muhammed teachings) has become challenging, given the abundance of misleading answers lacking credible evidence and proper sources. 
+Concurrently, transformer-based architectures have demonstrated remarkable efficacy in language modeling and comprehension. Notably, applications in religious Arabic generative question answering have remained underdeveloped, primarily due to the lack of available Arabic religious datasets. In this paper, we present an Arabic Islamic generative question-answer model named AraQA, which has been fine-tuned using Arabic Islamic question/answer pairs meticulously gathered and extracted from reputable open-source websites on the internet. The model is initially designed to operate exclusively in the Arabic Language. Our model attains an impressive perplexity score of 2.3 when evaluated on held-out question-answer pairs.
 
 ## Methodology
 In this project, we used islamweb.net data that we scraped as we mentioned in the Abstract section.<br>
