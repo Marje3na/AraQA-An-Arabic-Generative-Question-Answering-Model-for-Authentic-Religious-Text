@@ -1,5 +1,5 @@
 # Religious-Text-Analysis-and-ChatBot-Using-Transformer-Based-Models
-[![078f0074fd7a58db4ea4a0e94efa3c5d.png](https://i.postimg.cc/1tysbx6S/078f0074fd7a58db4ea4a0e94efa3c5d.png)](https://postimg.cc/GBgWs5qg)
+<!--[![078f0074fd7a58db4ea4a0e94efa3c5d.png](https://i.postimg.cc/1tysbx6S/078f0074fd7a58db4ea4a0e94efa3c5d.png)](https://postimg.cc/GBgWs5qg)-->
 ## Abstract
 Nowadays, the internet is filled with misleading fatwas and the Muslim who really searching for the true information which is based on the Quran or on the Hadith of Prophet Mohamed is in a problem, he/she has to search about who gave the fatwa and to check the validity of the Hadith that the Sheikh relied on in his fatwa.<br>
 <br>
