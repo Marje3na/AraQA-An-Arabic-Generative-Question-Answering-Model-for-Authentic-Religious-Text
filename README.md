@@ -75,3 +75,17 @@ Deploy the model using 'gradio' library. As shown in the figure below, the user 
 The model fine-tuned in this project: https://huggingface.co/aubmindlab/aragpt2-base<br>
 <br>
 ***Disclaimer***: THE MODELS GENERATED ANSWERS ARE NOT RELIABLE AT ALL YET, AND THE MODEL IS NOT YET AVAILABLE FOR GENERAL USE, USE FOR RESEARCH PURPOSES ONLY.
+<br>
+
+#### If you used this model or data please cite us as: 
+<pre><code>@INPROCEEDINGS{10479645,
+  author={Adel, Yousef and Dorrah, Mostafa and Ashraf, Ahmed and ElSaadany, Abdallah and Mohamed, Mahmoud and Wael, Mariam and Khoriba, Ghada},
+  booktitle={2023 11th International Japan-Africa Conference on Electronics, Communications, and Computations (JAC-ECC)}, 
+  title={AraQA: An Arabic Generative Question-Answering Model for Authentic Religious Text}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={235-239},
+  keywords={Computational modeling;Education;Computer architecture;Transformers;Question answering (information retrieval);Web sites;Software development management;Transformers;Question-Answering;Religious Text;Arabic NLP;Topic Modeling;Large Language Models;GPT},
+  doi={10.1109/JAC-ECC61002.2023.10479645}}
+</code></pre>
